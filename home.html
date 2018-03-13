@@ -9,12 +9,7 @@
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/styles.css">
-  <script>
-      var mod=angular.module('myapp',[]);
-      mod.controller('myctrl',function($scope) {
-        $scope.firstName = "Sameer";
-    });
-  </script>
+  <script src="js/controller.js"></script>
 </head>
 <body ng-app="myapp" ng-controller="myctrl">
 
@@ -24,7 +19,7 @@
             <div class="col-sm-12">
               <div class="container-fluid">
                 <div class="navbar-header">
-                  <div class="navbar-brand" ><a href="#" style="text-decoration:none;">Sameer Tiwari<br><br><div class="navbar-brandcast">Aspiring Software Developer/ Java Developer</div></a></div>
+                  <div class="navbar-brand"  ng-model="name"><a href="#" style="text-decoration:none;">{{name}}<br><br><div class="navbar-brandcast">{{role}}</div></a></div>
                   </div>
                   <ul class="nav navbar-nav navbar-center">
                     <li><a href="#" id="home">Home</a></li>
@@ -41,7 +36,6 @@
         </div>
       </div>
     </div>
-    <!-- <input ng-model="firstName"> -->
     
 <div class="container">
   <div class="row">
