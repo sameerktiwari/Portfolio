@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="js/angular.min.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <script>
+      var mod=angular.module('myapp',[]);
+      mod.controller('myctrl',function($scope) {
+        $scope.firstName = "Sameer";
+    });
+  </script>
+</head>
+<body ng-app="myapp" ng-controller="myctrl">
+
+  <div class="navbar navbar-inverse" >
+      <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <div class="navbar-brand" ><a href="#" style="text-decoration:none;">Sameer Tiwari<br><br><div class="navbar-brandcast">Aspiring Software Developer/ Java Developer</div></a></div>
+                  </div>
+                  <ul class="nav navbar-nav navbar-center">
+                    <li><a href="#" id="home">Home</a></li>
+                    <li><a href="#" id="about">About</a></li>
+                    <li><a href="#" id="work">Work</a></li>
+                    <li><a href="#" id="contact">Contact</a></li>
+                  </ul>
+          <!-- <ul class="nav navbar-nav navbar-center">
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <input ng-model="firstName"> -->
+    
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+      <img src="img/self.jpg" class="img-circle" alt="Cinque Terre">
+    </div>
+    <div class="col-sm-6">
+      <h1>Hello !</h1>
+      <h3>I'm a Java + Python Developer with experience in Angular JS</h3>
+      <h3>Graduate from National Institute of Technology, Agartala with specialization in Electronics and Communication Engineering</h3>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

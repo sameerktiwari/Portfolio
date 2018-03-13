@@ -1,0 +1,45 @@
+.navbar-inverse {
+    height: 150px;
+    background-color: rgb(239, 250, 249);
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.container-fluid {
+    position: absolute;
+    padding-left: 70px;
+    padding-top: 50px;
+    width: 100%;
+}
+
+.navbar-brand {
+    font-size: 40px;
+    text-align: left;
+}
+
+.navbar-header a:hover {
+    color: black;
+}
+
+.navbar-center {
+    padding-left: 100px;
+}
+
+.navbar-center li {
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.nav.navbar-nav.navbar-center li a:hover {
+    color: cadetblue;
+}
+
+.navbar-brandcast {
+    font-size: 20px;
+}
+
+img {
+    height: 500px;   
+    width: 90%;
+}
+
