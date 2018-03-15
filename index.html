@@ -4,7 +4,8 @@
   <title>Portfolio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="js/angular.min.js"></script>
+  <script src="js/angular.js"></script>
+  <script src="js/angular-route.js"></script>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
@@ -37,17 +38,18 @@
       </div>
     </div>
     
-<div class="container">
-  <div class="row">
-    <div class="col-sm-6">
-      <img src="img/self.jpg" class="img-circle" alt="Cinque Terre">
-    </div>
-    <div class="col-sm-6">
-      <h1>Hello !</h1>
-      <h3>I'm a Java + Python Developer with experience in Angular JS</h3>
-      <h3>Graduate from National Institute of Technology, Agartala with specialization in Electronics and Communication Engineering</h3>
-    </div>
-  </div>
-</div>
+<!--<div class="container">-->
+  <!--<div class="row">-->
+    <!--<div class="col-sm-6">-->
+      <!--<img src="img/self.jpg" class="img-circle" alt="Cinque Terre">-->
+    <!--</div>-->
+    <!--<div class="col-sm-6">-->
+      <!--<h1>Hello !</h1>-->
+      <!--<h3>I'm a Java + Python Developer with experience in Angular JS</h3>-->
+      <!--<h3>Graduate from National Institute of Technology, Agartala with specialization in Electronics and Communication Engineering</h3>-->
+    <!--</div>-->
+  <!--</div>-->
+<!--</div>-->
+<div ng-view=""></div>
 </body>
 </html>
