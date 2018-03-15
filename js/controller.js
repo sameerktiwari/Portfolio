@@ -6,6 +6,10 @@ app.config(function($routeProvider){
             controller: 'myctrl',
             templateUrl: 'templates/home.html'
         })
+        .when('/about',{
+            controller: 'myctrl',
+            templateUrl: 'templates/about.html'
+        })
         .otherwise({redirectTo: '/'});
 });
 
