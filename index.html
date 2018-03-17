@@ -11,6 +11,10 @@
   <script src="js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/styles.css">
   <script src="js/controller.js"></script>
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+  <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 </head>
 <body ng-app="myapp" ng-controller="myctrl">
 
@@ -20,13 +24,14 @@
             <div class="col-sm-12">
               <div class="container-fluid">
                 <div class="navbar-header">
-                  <div class="navbar-brand"  ng-model="name"><a href="#" style="text-decoration:none;">{{name}}<br><br><div class="navbar-brandcast">{{role}}</div></a></div>
+                  <div class="navbar-brand"  ng-model="name"><br><br><a href="#" style="text-decoration:none;">{{name}}<br><br><div class="navbar-brandcast">{{role}}</div></a></div>
                   </div>
+                <br><br>
                   <ul class="nav navbar-nav navbar-center">
                     <li><a href="#/" id="home">Home</a></li>
                     <li><a href="#/about" id="about">About</a></li>
-                    <li><a href="#/" id="work">Work</a></li>
-                    <li><a href="#/" id="contact">Contact</a></li>
+                    <li><a href="#/work" id="work">Work</a></li>
+                    <li><a href="#/contact" id="contact">Contact</a></li>
                   </ul>
           <!-- <ul class="nav navbar-nav navbar-center">
             <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
@@ -39,6 +44,33 @@
     </div>
 
 <div ng-view=""></div>
+<br><br>
 
-</body>
+<footer class="container-fluid">
+  <div >
+    <div class="row">
+      <div class="col-sm-2 col-sm-offset-2">
+        <h3 class="font-weight-bold">About Page</h3>
+      </div>
+      <div class="col-sm-2">
+        <h3 class="font-weight-bold">About</h3>
+      </div>
+      <div class="col-sm-2">
+        <h3 class="font-weight-bold">Follow me</h3>
+
+        <!-- Place this tag where you want the widget to render. -->
+        <div class="g-follow" data-annotation="bubble" data-height="20" data-href="//plus.google.com/u/0/118422030258074749903" data-rel="author"></div>
+        <br>
+        <!--Follow button for Twitter -->
+        <a href="https://twitter.com/SameerKTiwari95?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-screen-name="true" data-lang="en" data-show-count="false">Follow @SameerKTiwari95</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+      <div class="col-sm-2">
+        <h3></h3>
+        <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="sameertiwari"><a class="LI-simple-link" href='https://in.linkedin.com/in/sameertiwari?trk=profile-badge'>Sameer Tiwari</a></div>
+      </div>
+    </div>
+    <br>
+  </div>
+</footer>
+  </body>
 </html>

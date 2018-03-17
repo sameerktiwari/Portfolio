@@ -10,6 +10,14 @@ app.config(function($routeProvider){
             controller: 'myctrl',
             templateUrl: 'templates/about.html'
         })
+        .when('/work',{
+            controller: 'myctrl',
+            templateUrl: 'templates/work.html'
+        })
+        .when('/contact',{
+            controller: 'myctrl',
+            templateUrl: 'templates/contact.html'
+        })
         .otherwise({redirectTo: '/'});
 });
 

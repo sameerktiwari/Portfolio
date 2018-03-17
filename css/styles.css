@@ -8,7 +8,7 @@
 .container-fluid {
     position: absolute;
     padding-left: 70px;
-    padding-top: 50px;
+    padding-top: 0px;
     width: 100%;
 }
 
@@ -41,5 +41,20 @@
 img {
     height: 500px;   
     width: 90%;
+}
+
+footer {
+    text-align: center;
+    padding-top: 10px;
+    background-color: #3c3c3c;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+    color: white;
+}
+
+.col-sm-2 {
+    text-align: left;
 }
 
