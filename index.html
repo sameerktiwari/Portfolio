@@ -33,9 +33,6 @@
                     <li><a href="#/work" id="work">Work</a></li>
                     <li><a href="#/contact" id="contact">Contact</a></li>
                   </ul>
-          <!-- <ul class="nav navbar-nav navbar-center">
-            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
           </ul> -->
             </div>
           </div>
@@ -49,11 +46,20 @@
 <footer class="container-fluid">
   <div >
     <div class="row">
-      <div class="col-sm-2 col-sm-offset-2">
+      <div class="col-sm-2 col-sm-offset-1">
         <h3 class="font-weight-bold">About Page</h3>
+        <p>
+          {{pageInfo}}
+        </p>
       </div>
-      <div class="col-sm-2">
-        <h3 class="font-weight-bold">About</h3>
+      <div class="col-sm-3">
+        <h3 class="font-weight-bold">Contact</h3>
+        <p><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;Name: {{fullName}}</p>
+        <p><span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;Email: {{email}}</p>
+        <p>
+          <span class="glyphicon glyphicon-home"></span>&nbsp;
+          Address: {{address}}
+        </p>
       </div>
       <div class="col-sm-2">
         <h3 class="font-weight-bold">Follow me</h3>

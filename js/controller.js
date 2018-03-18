@@ -25,6 +25,11 @@ app.controller('myctrl',function($scope) {
     $scope.name = "Sameer Tiwari";
     $scope.role="Aspiring Software Developer/ Java Developer";
     $scope.firstName="njkfans";
+    $scope.pageInfo="This page is developed using AngularJS. It is a example of a Single\n" +
+        "          Page application (SPA) where application runs on a single page";
+    $scope.fullName="Sameer Kumar Tiwari";
+    $scope.email="sameerktiwari@outlook.com";
+    $scope.address="HNo. 372A, Gayatri Nagar, Kunraghat, Gorakhpur, Uttar Pradesh - 273008";
 });
 
 

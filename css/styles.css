@@ -54,7 +54,11 @@ footer {
     color: white;
 }
 
-.col-sm-2 {
+.col-sm-2,.col-sm-3 {
     text-align: left;
+}
+
+.col-sm-2 p,.col-sm-3 {
+    color: gray;
 }
 
