@@ -10,9 +10,9 @@ app.config(function($routeProvider){
             controller: 'myctrl',
             templateUrl: 'templates/about.html'
         })
-        .when('/work',{
+        .when('/resume',{
             controller: 'myctrl',
-            templateUrl: 'templates/work.html'
+            templateUrl: 'templates/resume.html'
         })
         .when('/contact',{
             controller: 'myctrl',
